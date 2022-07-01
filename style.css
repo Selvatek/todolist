@@ -2,7 +2,7 @@ body {
   padding: 50px;
 }
 
-form, #test {
+form, [id^=test] {
   margin: auto;
   margin-bottom: 20px;
   width: 300px;
@@ -13,4 +13,7 @@ form, #test {
 
 span {
   margin: 10px;
+}
+h2{
+  text-align: center;
 }
